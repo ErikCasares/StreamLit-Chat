@@ -127,6 +127,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+/allRequeriments.txt
+
 
 # Spyder project settings
 .spyderproject
