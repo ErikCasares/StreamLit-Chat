@@ -1,0 +1,15 @@
+langchain==0.3.14
+langchain-community==0.3.14
+PyPDF2==3.0.1
+python-dotenv==1.0.1
+streamlit==1.41.1
+openai==1.58.1
+faiss-cpu==1.9.0.post1
+altair==5.5.0
+tiktoken==0.8.0
+# uncomment to use huggingface llms
+# huggingface-hub==0.14.1
+
+# uncomment to use instructor embeddings
+# InstructorEmbedding==1.0.1
+# sentence-transformers==2.2.2
