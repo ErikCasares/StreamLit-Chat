@@ -66,9 +66,9 @@ def main():
                 with st.spinner("Processando..."):
                     raw_text = get_pdf_text(pdf_docs)
                     st.session_state.pdf_content = raw_text 
-                    st.success("PDFs processados! Você pode fazer perguntas agora.")
+                    st.success(":primary[PDFs processados! Você pode fazer perguntas agora.]")
             else:
-                st.warning("Por favor, carregue pelo menos um PDF.")
+                st.warning(":primary[Por favor, carregue pelo menos um PDF.]")
 
 if __name__ == '__main__':
     main()
